@@ -1,0 +1,117 @@
+@media screen and (max-width: 992px){
+
+    /*--HEADER & NAV--*/
+    .subnav{
+        width: 100%;
+    }
+    .subnav a{
+        width: 50%;
+        text-align: center;
+        border-bottom: 3px solid lightgrey; 
+    }
+    .subnav a:hover{
+        border-bottom: 3px solid #0065FC;
+        border-top-color: transparent;
+    }
+    nav{
+        justify-content: center;
+        align-items: center;
+
+    }
+    #logo{
+        margin: 0%;     
+    }
+
+    /*----MEDIA QUERIES SEARCH FORM----*/
+    .searchForm .searchText{
+        display: none;
+    }
+    .fas.fa-search{
+        display: inline;
+        background-color: #0065FC;
+        justify-content: flex-start;
+    }
+    .searchForm button{
+        width: 64px;
+    }
+
+
+    /*-----------Hébergement-et-Populaires-------*/
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .bloc-Populaires{
+        order: -1;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .bloc-cartes-popular{
+        flex-direction: row;
+    }
+    .bloc-Hebergements{
+        width: 100%;
+    }
+
+    /*---ACTIVITES---*/
+    .bloc-Activity {
+        flex-direction: column;
+    }
+    .activity-Card, .activity-Card2, .activity-Card3, .activity-Card4, .activity-Card5, .activity-Card6{
+        width: 100%;
+        height: 230px;
+        margin-bottom: 32px;
+    }
+    .flex{
+        width: 100%;
+    }
+    .img-Activity1, .img-Activity2, .img-Activity3, .img-Activity4, .img-Activity5, .img-Activity6{
+        height: 160px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+
+    /*-----------Section-Hébergement-Populaires-------*/
+    .container{
+        width: 100%;
+    }
+    .bloc-cartes-popular{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bloc-Populaires{
+        width: 100%;
+        border-radius: 0;
+    }
+    .bloc-Hebergements{
+        width: 100%;
+        background-color: white;
+    }
+    .bloc-cartes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card1{
+        width: 100%;
+    }
+    .card2{
+        width: 95%;
+    }
+    .img-5{
+        width: 35%;
+    }
+    
+    /*--FILTERS--*/
+    .filter-list>h2{
+        margin-right: 640px;
+    }
+
+    /*--FOOTER--*/
+    .Main-Footer{
+        flex-direction: column;
+        padding-left: 32px;
+    }
+} 
